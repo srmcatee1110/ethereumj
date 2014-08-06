@@ -1,4 +1,2 @@
-ethereumj
-=========
+ethereumj - snapshot repository
 
-Ethereum pure Java implementation.
