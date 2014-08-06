@@ -30,7 +30,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/ethereum/ethereumj.git</connection>
-		<developerConnection>scm:git:git://github.com/ethereum/ethereumj.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/ethereum/ethereumj.git</developerConnection>
 		<url>https://github.com/ethereum/ethereumj</url>
 	</scm>
 
@@ -340,7 +340,7 @@
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                     <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
                     <includes><include>**/*</include></includes>
-                    <excludes><exclude>**/*sources*</exclude></excludes>
+                    <!--<excludes><exclude>**/*sources*</exclude></excludes>-->
                     <force>true</force>
                     <repositoryName>ethereumj</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>ethereum</repositoryOwner>    <!-- github repo owner  -->
